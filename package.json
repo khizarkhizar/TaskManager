@@ -2,7 +2,7 @@
   "name": "taskmanager",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://khizarkhizar.github.io/taskmanager",
+  "homepage": "https://khizarkhizar.github.io/TaskManager",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy":"gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
