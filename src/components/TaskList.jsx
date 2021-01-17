@@ -7,15 +7,19 @@ class Tasklist extends Component {
         
         this.state = { data: Task.Task  }
     }
+
+
+    addItem(item) {
+
+
+    }
     render() { 
         return (
             <div >
 
           
               <div className='container'>
-                <form onSubmit={this.addItem}>
-                  
-               
+                     
           {this.state.data.map(
             (d) =>
                (
@@ -48,6 +52,11 @@ class Tasklist extends Component {
               
               )
           )}
+
+
+                <form onSubmit={this.addItem}>
+                  
+          
      
             
                   
